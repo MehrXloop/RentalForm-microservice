@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.rentalform.rentalform.model.RentalForm;
 
-public interface RentalRepository extends JpaRepository<RentalForm, Long> {
+public interface RentalFormRepository extends JpaRepository<RentalForm, Long> {
     
 }

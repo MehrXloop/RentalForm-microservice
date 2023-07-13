@@ -8,15 +8,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.rentalform.rentalform.model.RentalForm;
-import com.rentalform.rentalform.repository.RentalRepository;
+import com.rentalform.rentalform.repository.RentalFormRepository;
 
 @CrossOrigin("*")
 @RestController
 @RequestMapping("/rentalForm")
-public class RentalController {
+public class RentalFormController {
     
     @Autowired
-    private RentalRepository rentalRepository;
+    private RentalFormRepository rentalRepository;
 
 
      // for posting user information
