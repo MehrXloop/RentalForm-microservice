@@ -50,7 +50,7 @@ class RentalformApplicationTests {
 	@Test
 	public void canAddUserData() throws Exception {
 
-		RentalForm newForm = new RentalForm(1L, 2L, "Bugatti Chiron Super Sport", "03350258417",
+		RentalForm newForm = new RentalForm(1L, 2L, "Mehr", "03350258417",
 				"clifton x-loop office", "123456", null, null,200000);
 		when(rentalFormRepository.save(newForm)).thenReturn((newForm));
 		mvc.perform(MockMvcRequestBuilders
